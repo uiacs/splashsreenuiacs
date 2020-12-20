@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/act_kalender"
+    android:background="#FFCD00"
+    tools:context=".kalender">
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+    <TextView
+        android:id="@+id/kalender"
+        android:layout_width="181dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="179dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-15dp"
+        android:text="@string/kalender"
+        android:textAppearance="@style/kalender"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/rectangle_656"
+        android:layout_width="375dp"
+        android:layout_height="350dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/rectangle_6"
+        />
+
+    <View
+        android:id="@+id/rectangle_222"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+    <TextView
+        android:id="@+id/agenda"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="179dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="435dp"
+        android:text="@string/agenda"
+        android:textAppearance="@style/agenda"
+        android:gravity="center_vertical"
+        />
+
+
+    <View
+        android:id="@+id/rectangle_141"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/rectangle_14"
+        />
+
+    <View
+        android:id="@+id/rectangle_142"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="610dp"
+        android:background="@drawable/rectangle_14"
+        />
+
+</RelativeLayout>
