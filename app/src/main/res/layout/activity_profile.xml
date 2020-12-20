@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/act_profile"
+    android:background="#FFFFFF"
+    tools:context=".profile">
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="145dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="234dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-15dp"
+        android:text="@string/profile"
+        android:textAppearance="@style/profile"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="157dp"
+        android:layout_height="155dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/profile_1"
+        />
+
+    <View
+        android:id="@+id/rect_51"
+        android:layout_width="310dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="271dp"
+        android:background="@drawable/profile_2"
+        />
+
+    <View
+        android:id="@+id/rectangle_512"
+        android:layout_width="310dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/profile_2"
+        />
+
+    <View
+        android:id="@+id/rectangle_513"
+        android:layout_width="310dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="417dp"
+        android:background="@drawable/profile_2"
+        />
+    <View
+        android:id="@+id/rectangle_514"
+        android:layout_width="310dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/profile_2"
+        />
+
+    <View
+        android:id="@+id/rectangle_515"
+        android:layout_width="310dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="563dp"
+        android:background="@drawable/profile_2"
+        />
+
+    <View
+        android:id="@+id/rectangle_516"
+        android:layout_width="310dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="636dp"
+        android:background="@drawable/profile_3"
+        />
+
+
+</RelativeLayout>
