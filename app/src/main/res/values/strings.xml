@@ -1,9 +1,23 @@
 <resources>
     <string name="app_name">splashsreenuiacs</string>
     <string name="nama_app">UI-ACS</string>
+
+    <style name="ui_acs">
+
+        <item name="android:textSize">
+            50sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <string name="ui_acs"> UI-ACS </string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="ui_acs">UI-ACS</string>
-    <string name="swipe_left_for_register">Klik untuk Sign Up</string>
+    <string name="swipe_left_for_register"> Click Here for Register</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="e_mail">Email</string>
@@ -12,4 +26,119 @@
     <string name="register">Register</string>
     <string name="re_type_password">Re-type Password</string>
     <string name="your_name">Full Name</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="reminder">Reminder</string>
+
+    <string name="scan_your_t">
+
+Scan your teacher barcode or Input your code
+</string>
+
+    <string name="input_code">
+
+Input Code
+</string>
+
+    <string name="codebyteacher">Code By Teacher</string>
+
+    <string name="anda_sudah_">
+
+Anda sudah diabsen pada matkul terkait
+</string>
+
+    <string name="tampilkan_k">
+
+Tampilkan Kelas
+</string>
+
+    <string name="kembali">
+
+Kembali
+</string>
+
+    <string name="kelas">
+
+Kelas
+</string>
+
+    <string name="rpl_01">
+
+RPL-01
+</string>
+
+    <string name="week_1">
+
+Week 1
+</string>
+
+    <!-- strings.xml -->
+    <string name="tugas_mater">
+
+Tugas/Materi
+</string>
+
+    <!-- strings.xml -->
+    <string name="daftar_tuga">
+
+Daftar Tugas
+</string>
+
+
+    <string name="nama_mata_k">
+
+Nama Mata Kuliah
+</string>
+
+    <string name="notes">
+
+Notes
+</string>
+
+    <string name="notes_1">
+
+Notes 1
+</string>
+
+    <string name="nama_notes">
+
+Nama Notes
+</string>
+
+    <string name="kalender">
+
+Kalender
+</string>
+
+    <string name="agenda">
+
+Agenda
+</string>
+
+    <string name="profile">
+
+Profile
+</string>
+
+    <string name="are_you_sur">
+
+Are you sure?
+</string>
+
+    <string name="yes">
+
+Yes
+</string>
+
+    <string name="no">
+
+No
+</string>
 </resources>

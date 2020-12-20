@@ -1,13 +1,264 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="uiacs">
+    <style name="uiiaacs">
         <item name="android:textSize">
             45sp
         </item>
         <item name="android:textColor">
             #FF000000
         </item>
+    </style>
+
+    <style name="uiacs">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+
+    <style name="reminder">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+
+    <style name="scan_your_t">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="input_code">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="anda_sudah_">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="tampilkan_k">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="kembali">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="kelas">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+    <style name="rpl_01">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+
+    <style name="week_1">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="tugas_mater">
+
+        <item name="android:textSize">
+            48sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="daftar_tuga">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+
+    <style name="nama_mata_k">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="notes">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+
+    <style name="notes_1">
+
+        <item name="android:textSize">
+            26sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="nama_notes">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+
+    <style name="kalender">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+
+    <style name="agenda">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+
+    <style name="profile">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
+
+    <style name="are_you_sur">
+
+        <item name="android:textSize">
+            32sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="yes">
+
+        <item name="android:textSize">
+            32sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
     </style>
 
 </resources>

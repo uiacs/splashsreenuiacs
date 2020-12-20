@@ -5,13 +5,110 @@
     android:id="@+id/activity_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="30dp"
+    android:background="#FFCD00"
     tools:context=".home">
 
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_1"
+        />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="halo ini adalah tutorial splash screen "
-        android:textSize="30sp"/>
+        android:id="@+id/ui_acs"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="-15dp"
+        android:gravity="center_vertical"
+        android:text="@string/ui_acs"
+        android:textAppearance="@style/ui_acs" />
+
+    <Button
+        android:id="@+id/qrcodebuttonhome"
+        android:layout_width="298dp"
+        android:layout_height="175dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/rectangle_6"
+        />
+
+    <View
+        android:id="@+id/rectangle_13"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="274dp"
+        android:background="@drawable/rectangle_1"
+        />
+    <TextView
+        android:id="@+id/reminder"
+        android:layout_width="237dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="215dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="265dp"
+        android:text="@string/reminder"
+        android:textAppearance="@style/reminder"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/rectangle_14"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="351dp"
+        android:background="@drawable/rectangle_14"
+        />
+    <View
+        android:id="@+id/rectangle_15"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/rectangle_14"
+        />
+
+    <View
+        android:id="@+id/rectangle_16"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="529dp"
+        android:background="@drawable/rectangle_14"
+        />
+
+    <View
+        android:id="@+id/rectangle_17"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="618dp"
+        android:background="@drawable/rectangle_14"
+        />
 
 </RelativeLayout>
