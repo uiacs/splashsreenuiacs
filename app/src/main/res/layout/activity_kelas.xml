@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_kelas"
+    android:background="#FFFFFF"
+    tools:context=".kelas">
+
+    <View
+        android:id="@+id/rectangle_kesekian"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="114dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-15dp"
+        android:text="@string/kelas"
+        android:textAppearance="@style/kelas"
+        android:gravity="center_vertical"
+        />
+
+    <Button
+        android:id="@+id/rectangle_untuk_kelas_1_1"
+        android:layout_width="156dp"
+        android:layout_height="164dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/rect_kelas_1"
+        />
+
+    <View
+        android:id="@+id/rectangle_untuk_kelas_1_2"
+        android:layout_width="103dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/rect_kelas_2"
+        />
+
+    <View
+        android:id="@+id/rectangle_untuk_kelas_1_3"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="197dp"
+        android:background="@drawable/rect_kelas_3"
+        />
+
+    <View
+        android:id="@+id/rectangle_untuk_kelas_2_1"
+        android:layout_width="156dp"
+        android:layout_height="164dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="235dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/rect_kelas_1"
+        />
+
+    <View
+        android:id="@+id/rectangle_untuk_kelas_2_2"
+        android:layout_width="103dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="262dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/rect_kelas_2"
+        />
+
+    <View
+        android:id="@+id/rectangle_untuk_kelas_2_3"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="265dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="197dp"
+        android:background="@drawable/rect_kelas_3"
+        />
+
+</RelativeLayout>
