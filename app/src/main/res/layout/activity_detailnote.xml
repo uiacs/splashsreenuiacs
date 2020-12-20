@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/act_detailnote"
+    android:background="#FFFFFF"
+    tools:context=".detailnote">
+
+    <View
+        android:id="@+id/rectangle_kese1"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+    <TextView
+        android:id="@+id/nama_notes"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-15dp"
+        android:text="@string/nama_notes"
+        android:textAppearance="@style/nama_notes"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/rectangle_detailnotes_1"
+        android:layout_width="321dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/buat_detail_kls_1"
+        />
+
+    <View
+        android:id="@+id/detail_notes_2"
+        android:layout_width="321dp"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/buat_detail_kls_2"
+        />
+
+</RelativeLayout>

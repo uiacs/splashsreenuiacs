@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/act_notes"
+    android:background="#FFFFFF"
+    tools:context=".note">
+
+    <View
+        android:id="@+id/rectangle_notes"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+    <TextView
+        android:id="@+id/notes"
+        android:layout_width="124dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-15dp"
+        android:text="@string/notes"
+        android:textAppearance="@style/notes"
+        android:gravity="center_vertical"
+        />
+
+
+    <View
+        android:id="@+id/rectangle_untuk_kelas_1_1"
+        android:layout_width="156dp"
+        android:layout_height="164dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/rect_kelas_1"
+        />
+
+    <View
+        android:id="@+id/kisspng_plu"
+        android:layout_width="100dp"
+        android:layout_height="106dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/plus"
+        />
+
+    <Button
+        android:id="@+id/rectangle_untuk_notes"
+        android:layout_width="156dp"
+        android:layout_height="164dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="215dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/rect_kelas_1"
+        />
+
+    <TextView
+        android:id="@+id/notes_1"
+        android:layout_width="91dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="245dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="135dp"
+        android:text="@string/notes_1"
+        android:textAppearance="@style/notes_1"
+        android:gravity="center_vertical"
+        />
+
+
+</RelativeLayout>
