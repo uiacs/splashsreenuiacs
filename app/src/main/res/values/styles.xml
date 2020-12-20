@@ -261,4 +261,78 @@
 
     </style>
 
-</resources>
+    <style name="kalhome">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="klshome">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="tgshome">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="nohome">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+    </style>
+
+        <style name="prfhome">
+
+            <item name="android:textSize">
+                17sp
+            </item>
+
+            <item name="android:textColor">
+                #000000
+            </item>
+
+    </style>
+    <style name="loghome">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+
+
+
+
+    </resources>

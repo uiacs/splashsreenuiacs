@@ -56,7 +56,7 @@
         android:layout_width="237dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="215dp"
+        android:layout_marginLeft="280dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="265dp"
         android:text="@string/reminder"
@@ -65,50 +65,144 @@
         />
 
     <View
-        android:id="@+id/rectangle_14"
-        android:layout_width="298dp"
-        android:layout_height="73dp"
+        android:id="@+id/kalenderhome"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="65dp"
-        android:layout_marginRight="65dp"
+        android:layout_marginLeft="40dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="351dp"
-        android:background="@drawable/rectangle_14"
-        />
-    <View
-        android:id="@+id/rectangle_15"
-        android:layout_width="298dp"
-        android:layout_height="73dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="65dp"
-        android:layout_marginRight="65dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="440dp"
-        android:background="@drawable/rectangle_14"
+        android:layout_marginTop="389dp"
+        android:background="@drawable/homerect1"
         />
 
     <View
-        android:id="@+id/rectangle_16"
-        android:layout_width="298dp"
-        android:layout_height="73dp"
+        android:id="@+id/kelashome"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="65dp"
-        android:layout_marginRight="65dp"
+        android:layout_marginLeft="157dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="529dp"
-        android:background="@drawable/rectangle_14"
+        android:layout_marginTop="389dp"
+        android:background="@drawable/homerect1"
         />
 
     <View
-        android:id="@+id/rectangle_17"
-        android:layout_width="298dp"
-        android:layout_height="73dp"
+        android:id="@+id/tugashome"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="65dp"
-        android:layout_marginRight="65dp"
+        android:layout_marginLeft="274dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="618dp"
-        android:background="@drawable/rectangle_14"
+        android:layout_marginTop="389dp"
+        android:background="@drawable/homerect1"
         />
+    <!-- Rectangle 62 -->
+    <View
+        android:id="@+id/notehome"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="497dp"
+        android:background="@drawable/homerect1"
+        />
+
+    <View
+        android:id="@+id/profilehome"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="212dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="497dp"
+        android:background="@drawable/homerect1"
+        />
+    <View
+        android:id="@+id/logouthome"
+        android:layout_width="329dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="615dp"
+        android:background="@drawable/homerect2"
+        />
+
+    <TextView
+        android:id="@+id/kalender_text"
+        android:layout_width="68dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="439dp"
+        android:text="@string/kalender_home"
+        android:textAppearance="@style/kalhome"
+        android:gravity="center_horizontal|center_vertical"
+        />
+    <TextView
+        android:id="@+id/kelas_text"
+        android:layout_width="68dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="439dp"
+        android:text="@string/kelas_home"
+        android:textAppearance="@style/klshome"
+        android:gravity="center_horizontal|center_vertical"
+        />
+    <TextView
+        android:id="@+id/tugas_text"
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="293dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="439dp"
+        android:text="@string/tugas_home"
+        android:textAppearance="@style/tgshome"
+        android:gravity="center_horizontal|center_vertical"
+        />
+    <TextView
+        android:id="@+id/note_text"
+        android:layout_width="59dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:text="@string/note_home"
+        android:textAppearance="@style/nohome"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/profile_text"
+        android:layout_width="60dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:text="@string/profile_home"
+        android:textAppearance="@style/prfhome"
+        android:gravity="center_horizontal|center_vertical"
+    />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="122dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="610dp"
+        android:text="@string/logout_home"
+        android:textAppearance="@style/loghome"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
 
 </RelativeLayout>
