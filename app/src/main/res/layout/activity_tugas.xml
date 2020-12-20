@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/act_tugas"
+    android:background="#FFFFFF"
+    tools:context=".tugas">
+
+    <View
+        android:id="@+id/rectangle_k"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+    <TextView
+        android:id="@+id/daftar_tuga"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-15dp"
+        android:text="@string/daftar_tuga"
+        android:textAppearance="@style/daftar_tuga"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/rectangle_detail_11"
+        android:layout_width="321dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/buat_detail_kls_1"
+        />
+
+    <TextView
+        android:id="@+id/nama_mata_k"
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:text="@string/nama_mata_k"
+        android:textAppearance="@style/nama_mata_k"
+        android:gravity="center_vertical"
+        />
+
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="321dp"
+        android:layout_height="185dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/buat_detail_kls_2"
+        />
+
+</RelativeLayout>

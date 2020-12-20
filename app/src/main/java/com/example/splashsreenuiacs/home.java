@@ -17,11 +17,13 @@ public class home extends AppCompatActivity {
         Button buttonF;
         Button buttonG;
         Button buttonH;
+        Button buttonI;
 
         buttonE = (Button) findViewById(R.id.qrcodebuttonhome);
         buttonF = (Button) findViewById(R.id.logouthome);
         buttonG = (Button) findViewById(R.id.kalenderhome);
         buttonH = (Button) findViewById(R.id.kelashome);
+        buttonI = (Button) findViewById(R.id.tugashome);
 
         buttonE.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +57,15 @@ public class home extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent qr = new Intent(home.this, kelas.class);
+                startActivity(qr);
+            }
+        });
+
+        buttonI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent qr = new Intent(home.this, tugas.class);
                 startActivity(qr);
             }
         });
