@@ -64,7 +64,7 @@
         android:gravity="center_vertical"
         />
 
-    <View
+    <Button
         android:id="@+id/kalenderhome"
         android:layout_width="86dp"
         android:layout_height="81dp"
@@ -75,7 +75,7 @@
         android:background="@drawable/homerect1"
         />
 
-    <View
+    <Button
         android:id="@+id/kelashome"
         android:layout_width="86dp"
         android:layout_height="81dp"
@@ -86,7 +86,7 @@
         android:background="@drawable/homerect1"
         />
 
-    <View
+    <Button
         android:id="@+id/tugashome"
         android:layout_width="86dp"
         android:layout_height="81dp"
@@ -97,7 +97,7 @@
         android:background="@drawable/homerect1"
         />
     <!-- Rectangle 62 -->
-    <View
+    <Button
         android:id="@+id/notehome"
         android:layout_width="86dp"
         android:layout_height="81dp"
@@ -108,7 +108,7 @@
         android:background="@drawable/homerect1"
         />
 
-    <View
+    <Button
         android:id="@+id/profilehome"
         android:layout_width="86dp"
         android:layout_height="81dp"
@@ -118,7 +118,7 @@
         android:layout_marginTop="497dp"
         android:background="@drawable/homerect1"
         />
-    <View
+    <Button
         android:id="@+id/logouthome"
         android:layout_width="329dp"
         android:layout_height="38dp"
@@ -136,7 +136,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="50dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="439dp"
+        android:layout_marginTop="365dp"
         android:text="@string/kalender_home"
         android:textAppearance="@style/kalhome"
         android:gravity="center_horizontal|center_vertical"
@@ -148,7 +148,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="167dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="439dp"
+        android:layout_marginTop="365dp"
         android:text="@string/kelas_home"
         android:textAppearance="@style/klshome"
         android:gravity="center_horizontal|center_vertical"
@@ -160,7 +160,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="293dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="439dp"
+        android:layout_marginTop="365dp"
         android:text="@string/tugas_home"
         android:textAppearance="@style/tgshome"
         android:gravity="center_horizontal|center_vertical"
@@ -172,7 +172,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="110dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="470dp"
         android:text="@string/note_home"
         android:textAppearance="@style/nohome"
         android:gravity="center_horizontal|center_vertical"
@@ -185,20 +185,20 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="225dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="470dp"
         android:text="@string/profile_home"
         android:textAppearance="@style/prfhome"
         android:gravity="center_horizontal|center_vertical"
     />
 
     <TextView
-        android:id="@+id/logout"
+        android:id="@+id/logout_text"
         android:layout_width="122dp"
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="145dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="610dp"
+        android:layout_marginTop="575dp"
         android:text="@string/logout_home"
         android:textAppearance="@style/loghome"
         android:gravity="center_horizontal|center_vertical"

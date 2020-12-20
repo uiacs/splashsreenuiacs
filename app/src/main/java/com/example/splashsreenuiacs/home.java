@@ -14,14 +14,25 @@ public class home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Button buttonE;
+        Button buttonF;
 
         buttonE = (Button) findViewById(R.id.qrcodebuttonhome);
+        buttonF = (Button) findViewById(R.id.logouthome);
 
         buttonE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Intent qr = new Intent(home.this, qrcode.class);
+                startActivity(qr);
+            }
+        });
+
+        buttonF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent qr = new Intent(home.this, logout.class);
                 startActivity(qr);
             }
         });

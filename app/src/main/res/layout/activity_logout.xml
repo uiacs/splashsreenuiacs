@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/act_logout"
+    android:background="#FFCD00"
+    tools:context=".logout">
+
+    <TextView
+        android:id="@+id/are_you_sur"
+        android:layout_width="256dp"
+        android:layout_height="89dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:text="@string/are_you_sur"
+        android:textAppearance="@style/are_you_sur"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <Button
+        android:id="@+id/rectangle_yes"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="206dp"
+        android:background="@drawable/logout_1"
+        />
+
+    <TextView
+        android:id="@+id/yes"
+        android:layout_width="135dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="206dp"
+        android:text="@string/yes"
+        android:textAppearance="@style/yes"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <Button
+        android:id="@+id/rectangle_no"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="296dp"
+        android:background="@drawable/logout_2"
+        />
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="135dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="296dp"
+        android:text="@string/no"
+        android:textAppearance="@style/no"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+</RelativeLayout>
