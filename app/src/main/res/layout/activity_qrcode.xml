@@ -8,10 +8,27 @@
     android:padding="30dp"
     tools:context=".qrcode">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="SOON TO BE QR CODE "
-        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/scanBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:textSize="30sp"
+        android:background="#FFCD00"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="260dp"
+        />
+
+    <Button
+        android:id="@+id/inputbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="input"
+        android:textSize="30sp"
+        android:background="#FFCD00"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="340dp"
+        />
+
 
 </RelativeLayout>

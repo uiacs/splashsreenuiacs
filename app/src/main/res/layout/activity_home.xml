@@ -39,6 +39,7 @@
         android:layout_marginRight="65dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="75dp"
+        android:text="scan you teacher code or input your number code"
         android:background="@drawable/rectangle_6"
         />
 
@@ -72,6 +73,7 @@
         android:layout_marginLeft="40dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="389dp"
+        android:text="Kalender"
         android:background="@drawable/homerect1"
         />
 
@@ -83,6 +85,7 @@
         android:layout_marginLeft="157dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="389dp"
+        android:text="Kelas"
         android:background="@drawable/homerect1"
         />
 
@@ -94,6 +97,7 @@
         android:layout_marginLeft="274dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="389dp"
+        android:text="Tugas"
         android:background="@drawable/homerect1"
         />
     <!-- Rectangle 62 -->
@@ -105,6 +109,7 @@
         android:layout_marginLeft="96dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="497dp"
+        android:text="note"
         android:background="@drawable/homerect1"
         />
 
@@ -116,6 +121,7 @@
         android:layout_marginLeft="212dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="497dp"
+        android:text="Profile"
         android:background="@drawable/homerect1"
         />
     <Button
@@ -126,83 +132,11 @@
         android:layout_marginLeft="40dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="615dp"
+        android:text="logout"
         android:background="@drawable/homerect2"
         />
 
-    <TextView
-        android:id="@+id/kalender_text"
-        android:layout_width="68dp"
-        android:layout_height="22dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="365dp"
-        android:text="@string/kalender_home"
-        android:textAppearance="@style/kalhome"
-        android:gravity="center_horizontal|center_vertical"
-        />
-    <TextView
-        android:id="@+id/kelas_text"
-        android:layout_width="68dp"
-        android:layout_height="22dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="167dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="365dp"
-        android:text="@string/kelas_home"
-        android:textAppearance="@style/klshome"
-        android:gravity="center_horizontal|center_vertical"
-        />
-    <TextView
-        android:id="@+id/tugas_text"
-        android:layout_width="50dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="293dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="365dp"
-        android:text="@string/tugas_home"
-        android:textAppearance="@style/tgshome"
-        android:gravity="center_horizontal|center_vertical"
-        />
-    <TextView
-        android:id="@+id/note_text"
-        android:layout_width="59dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="110dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="470dp"
-        android:text="@string/note_home"
-        android:textAppearance="@style/nohome"
-        android:gravity="center_horizontal|center_vertical"
-        />
 
-    <TextView
-        android:id="@+id/profile_text"
-        android:layout_width="60dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="225dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="470dp"
-        android:text="@string/profile_home"
-        android:textAppearance="@style/prfhome"
-        android:gravity="center_horizontal|center_vertical"
-    />
-
-    <TextView
-        android:id="@+id/logout_text"
-        android:layout_width="122dp"
-        android:layout_height="45dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="145dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="575dp"
-        android:text="@string/logout_home"
-        android:textAppearance="@style/loghome"
-        android:gravity="center_horizontal|center_vertical"
-        />
 
 
 </RelativeLayout>

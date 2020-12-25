@@ -29,21 +29,11 @@
         android:layout_marginLeft="55dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="206dp"
+        android:text="yes"
+        android:textSize="30sp"
         android:background="@drawable/logout_1"
         />
 
-    <TextView
-        android:id="@+id/yes"
-        android:layout_width="135dp"
-        android:layout_height="66dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="135dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="206dp"
-        android:text="@string/yes"
-        android:textAppearance="@style/yes"
-        android:gravity="center_horizontal|center_vertical"
-        />
 
     <Button
         android:id="@+id/rectangle_no"
@@ -53,20 +43,10 @@
         android:layout_marginLeft="55dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="296dp"
+        android:text="NO"
         android:background="@drawable/logout_2"
+        android:textSize="30sp"
         />
 
-    <TextView
-        android:id="@+id/no"
-        android:layout_width="135dp"
-        android:layout_height="66dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="135dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="296dp"
-        android:text="@string/no"
-        android:textAppearance="@style/no"
-        android:gravity="center_horizontal|center_vertical"
-        />
 
 </RelativeLayout>
