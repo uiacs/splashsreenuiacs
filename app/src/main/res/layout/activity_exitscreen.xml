@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/act_exit"
+    android:background="#FFCD00"
+    tools:context=".exitscreen">
+
+    <TextView
+        android:id="@+id/are_you_sur"
+        android:layout_width="256dp"
+        android:layout_height="89dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:text="@string/are_you_sur"
+        android:textAppearance="@style/are_you_sur"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <Button
+        android:id="@+id/exit_yes"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="206dp"
+        android:text="yes"
+        android:textSize="30sp"
+        android:background="@drawable/logout_1"
+        />
+
+
+    <Button
+        android:id="@+id/exit_no"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="296dp"
+        android:text="NO"
+        android:background="@drawable/logout_2"
+        android:textSize="30sp"
+        />
+
+</RelativeLayout>

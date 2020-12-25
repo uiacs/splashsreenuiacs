@@ -136,6 +136,18 @@
         android:background="@drawable/homerect2"
         />
 
+    <Button
+        android:id="@+id/exitprogram"
+        android:layout_width="329dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="665dp"
+        android:text="exit"
+        android:background="@drawable/homerect2"
+        />
+
 
 
 

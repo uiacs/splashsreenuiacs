@@ -25,6 +25,7 @@ public class register extends AppCompatActivity {
 
                 Intent home = new Intent(register.this, home.class);
                 startActivity(home);
+                finish();
             }
         });
         buttonD.setOnClickListener(new View.OnClickListener() {
@@ -33,6 +34,7 @@ public class register extends AppCompatActivity {
 
                 Intent register = new Intent(register.this, login.class);
                 startActivity(register);
+                finish();
             }
         });
     }
