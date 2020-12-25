@@ -6,18 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class register extends AppCompatActivity {
 
     Button buttonC;
-    Button buttonD;
+    ImageButton buttonD;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         buttonC = (Button) findViewById(R.id.btn_register);
-        buttonD = (Button) findViewById(R.id.tombol_kiri);
+        buttonD = findViewById(R.id.kelogin);
 
         buttonC.setOnClickListener(new View.OnClickListener() {
             @Override

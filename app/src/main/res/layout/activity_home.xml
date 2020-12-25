@@ -25,10 +25,11 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="250dp"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-6dp"
         android:gravity="center_vertical"
         android:text="@string/ui_acs"
-        android:textAppearance="@style/ui_acs" />
+        android:textAppearance="@style/uiiaacs"
+        android:fontFamily="sans-serif-black"/>
 
     <Button
         android:id="@+id/qrcodebuttonhome"
@@ -41,6 +42,7 @@
         android:layout_marginTop="75dp"
         android:text="scan you teacher code or input your number code"
         android:background="@drawable/rectangle_6"
+        android:gravity="center|bottom"
         />
 
     <View
@@ -61,7 +63,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="265dp"
         android:text="@string/reminder"
-        android:textAppearance="@style/reminder"
+        android:textAppearance="@style/uiacs"
+        android:fontFamily="sans-serif-black"
         android:gravity="center_vertical"
         />
 
@@ -75,6 +78,7 @@
         android:layout_marginTop="389dp"
         android:text="Kalender"
         android:background="@drawable/homerect1"
+        android:gravity="center|bottom"
         />
 
     <Button
@@ -87,6 +91,7 @@
         android:layout_marginTop="389dp"
         android:text="Kelas"
         android:background="@drawable/homerect1"
+        android:gravity="center|bottom"
         />
 
     <Button
@@ -99,6 +104,7 @@
         android:layout_marginTop="389dp"
         android:text="Tugas"
         android:background="@drawable/homerect1"
+        android:gravity="center|bottom"
         />
     <!-- Rectangle 62 -->
     <Button
@@ -111,6 +117,7 @@
         android:layout_marginTop="497dp"
         android:text="note"
         android:background="@drawable/homerect1"
+        android:gravity="center|bottom"
         />
 
     <Button
@@ -123,6 +130,7 @@
         android:layout_marginTop="497dp"
         android:text="Profile"
         android:background="@drawable/homerect1"
+        android:gravity="center|bottom"
         />
     <Button
         android:id="@+id/logouthome"

@@ -15,8 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="21dp"
         android:layout_marginBottom="10dp"
-        android:fontFamily="sans-serif-black"
         android:text="@string/ui_acs"
+        android:textAppearance="@style/uiiaacs"
+        android:fontFamily="sans-serif-black"
         android:textSize="50sp" />
 
     <ImageView
@@ -72,8 +73,8 @@
         android:textAlignment="center"
         android:gravity="center_horizontal" />
 
-    <Button
-        android:id="@+id/tombolkanan"
+    <ImageButton
+        android:id="@+id/keregister"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@drawable/arrow_right"

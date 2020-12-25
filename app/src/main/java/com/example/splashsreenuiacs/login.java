@@ -4,20 +4,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class login extends AppCompatActivity {
     Button buttonA;
-    Button buttonB;
+    ImageButton buttonB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         buttonA = (Button) findViewById(R.id.btn_login);
-        buttonB = (Button) findViewById(R.id.tombolkanan);
+        buttonB = findViewById(R.id.keregister);
 
         buttonA.setOnClickListener(new View.OnClickListener() {
             @Override
