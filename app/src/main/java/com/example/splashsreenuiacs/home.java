@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class home extends AppCompatActivity {
 
@@ -21,6 +22,12 @@ public class home extends AppCompatActivity {
         Button buttonJ;
         Button buttonK;
         Button buttonL;
+        ImageButton btna;
+        ImageButton btnb;
+        ImageButton btnc;
+        ImageButton btnd;
+        ImageButton btne;
+        ImageButton btnf;
 
         buttonE = (Button) findViewById(R.id.qrcodebuttonhome);
         buttonF = (Button) findViewById(R.id.logouthome);
@@ -30,8 +37,25 @@ public class home extends AppCompatActivity {
         buttonJ = (Button) findViewById(R.id.notehome);
         buttonK = (Button) findViewById(R.id.profilehome);
         buttonL = (Button) findViewById(R.id.exitprogram);
+        btna = findViewById(R.id.kalender_home);
+        btnb = findViewById(R.id.kelas_home);
+        btnc = findViewById(R.id.tugas_home);
+        btnd = findViewById(R.id.note_home);
+        btne = findViewById(R.id.profile_home);
+        btnf = findViewById(R.id.qrcode_home);
+
+
 
         buttonE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent qr = new Intent(home.this, qrcode.class);
+                startActivity(qr);
+            }
+        });
+
+        btnf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -58,7 +82,25 @@ public class home extends AppCompatActivity {
             }
         });
 
+        btna.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent qr = new Intent(home.this, kalender.class);
+                startActivity(qr);
+            }
+        });
+
         buttonH.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent qr = new Intent(home.this, kelas.class);
+                startActivity(qr);
+            }
+        });
+
+        btnb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -76,6 +118,15 @@ public class home extends AppCompatActivity {
             }
         });
 
+        btnc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent qr = new Intent(home.this, tugas.class);
+                startActivity(qr);
+            }
+        });
+
         buttonJ.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -84,6 +135,7 @@ public class home extends AppCompatActivity {
                 startActivity(qr);
             }
         });
+
 
         buttonK.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -94,11 +146,29 @@ public class home extends AppCompatActivity {
             }
         });
 
+        btnd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent qr = new Intent(home.this, note.class);
+                startActivity(qr);
+            }
+        });
+
         buttonL.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Intent qr = new Intent(home.this, exitscreen.class);
+                startActivity(qr);
+            }
+        });
+
+        btne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent qr = new Intent(home.this, profile.class);
                 startActivity(qr);
             }
         });

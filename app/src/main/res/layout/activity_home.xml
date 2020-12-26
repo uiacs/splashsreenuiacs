@@ -31,19 +31,32 @@
         android:textAppearance="@style/uiiaacs"
         android:fontFamily="sans-serif-black"/>
 
+    <ImageButton
+        android:id="@+id/qrcode_home"
+        android:background="@drawable/pngscan"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+
+        />
+
     <Button
         android:id="@+id/qrcodebuttonhome"
         android:layout_width="298dp"
-        android:layout_height="175dp"
+        android:layout_height="43dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="65dp"
         android:layout_marginRight="65dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="200dp"
         android:text="scan you teacher code or input your number code"
         android:background="@drawable/rectangle_6"
         android:gravity="center|bottom"
         />
+
 
     <View
         android:id="@+id/rectangle_13"
@@ -68,69 +81,114 @@
         android:gravity="center_vertical"
         />
 
+    <ImageButton
+        android:id="@+id/kalender_home"
+        android:background="@drawable/pngkalender"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="355dp"
+        />
+
     <Button
         android:id="@+id/kalenderhome"
         android:layout_width="86dp"
-        android:layout_height="81dp"
+        android:layout_height="25dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="40dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="389dp"
+        android:layout_marginTop="445dp"
         android:text="Kalender"
         android:background="@drawable/homerect1"
-        android:gravity="center|bottom"
+        android:gravity="center"
+        />
+
+    <ImageButton
+        android:id="@+id/kelas_home"
+        android:background="@drawable/pngkelas"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="358dp"
         />
 
     <Button
         android:id="@+id/kelashome"
         android:layout_width="86dp"
-        android:layout_height="81dp"
+        android:layout_height="25dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="157dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="389dp"
+        android:layout_marginTop="445dp"
         android:text="Kelas"
         android:background="@drawable/homerect1"
-        android:gravity="center|bottom"
+        android:gravity="center"
+        />
+
+    <ImageButton
+        android:id="@+id/tugas_home"
+        android:background="@drawable/pngtugas"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="281dp"
+        android:layout_marginTop="358dp"
         />
 
     <Button
         android:id="@+id/tugashome"
         android:layout_width="86dp"
-        android:layout_height="81dp"
+        android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="274dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="389dp"
+        android:layout_marginTop="445dp"
         android:text="Tugas"
         android:background="@drawable/homerect1"
-        android:gravity="center|bottom"
+        android:gravity="center"
         />
     <!-- Rectangle 62 -->
+    <ImageButton
+        android:id="@+id/note_home"
+        android:background="@drawable/pngnotes"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="487dp"
+        />
+
     <Button
         android:id="@+id/notehome"
         android:layout_width="86dp"
-        android:layout_height="81dp"
+        android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="96dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="497dp"
+        android:layout_marginTop="575dp"
         android:text="note"
         android:background="@drawable/homerect1"
-        android:gravity="center|bottom"
+        android:gravity="center"
+        />
+
+    <ImageButton
+        android:id="@+id/profile_home"
+        android:background="@drawable/pngprofile"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="487dp"
         />
 
     <Button
         android:id="@+id/profilehome"
         android:layout_width="86dp"
-        android:layout_height="81dp"
+        android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="212dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="497dp"
+        android:layout_marginTop="575dp"
         android:text="Profile"
         android:background="@drawable/homerect1"
-        android:gravity="center|bottom"
+        android:gravity="center"
         />
     <Button
         android:id="@+id/logouthome"
