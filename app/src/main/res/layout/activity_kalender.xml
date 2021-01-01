@@ -20,7 +20,7 @@
 
     <TextView
         android:id="@+id/kalender"
-        android:layout_width="181dp"
+        android:layout_width="195dp"
         android:layout_height="75dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="179dp"
@@ -31,17 +31,15 @@
         android:gravity="center_vertical"
         />
 
-    <View
-        android:id="@+id/rectangle_656"
+
+    <CalendarView
+        android:id="@+id/calender"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="15dp"
         android:layout_width="375dp"
         android:layout_height="350dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="65dp"
-        android:layout_marginRight="65dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="75dp"
-        android:background="@drawable/rectangle_6"
-        />
+        android:background="@drawable/rectangle_6">
+    </CalendarView>
 
     <View
         android:id="@+id/rectangle_222"
