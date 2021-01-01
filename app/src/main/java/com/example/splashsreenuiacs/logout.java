@@ -7,12 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class logout extends AppCompatActivity {
+import com.google.firebase.auth.FirebaseAuth;
 
+public class logout extends AppCompatActivity {
+    private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_logout);
+
         Button buttonZ;
         Button buttonY;
 
@@ -22,19 +25,22 @@ public class logout extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent qr = new Intent(logout.this, home.class);
-                startActivity(qr);
+                Intent home = new Intent(logout.this, home.class);
+                startActivity(home);
+                finish();
             }
         });
 
         buttonY.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent qr = new Intent(logout.this, login.class);
-                startActivity(qr);
+                mAuth.signOut();
+                Intent login = new Intent(logout.this, login.class);
+                startActivity(login);
+                finish();
             }
         });
-
+        mAuth = FirebaseAuth.getInstance();
     }
+
 }
