@@ -17,6 +17,7 @@ import com.google.zxing.integration.android.IntentResult;
 public class qrcode extends AppCompatActivity implements View.OnClickListener {
 
     Button scanBtn;
+    Button inputBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,16 @@ public class qrcode extends AppCompatActivity implements View.OnClickListener {
 
         scanBtn = findViewById(R.id.scanBtn);
         scanBtn.setOnClickListener(this);
+
+        inputBtn= (Button) findViewById(R.id.inputbutton);
+        inputBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent qr = new Intent(qrcode.this, inputcode.class);
+                startActivity(qr);
+            }
+        });
     }
 
     @Override

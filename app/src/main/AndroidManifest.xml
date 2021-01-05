@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.splashsreenuiacs">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -10,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".exitscreen"></activity>
+        <activity android:name=".inputcode"></activity>
+        <activity android:name=".exitscreen" />
         <activity android:name=".profile" />
         <activity android:name=".detailnote" />
         <activity android:name=".note" />
@@ -30,10 +32,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".login" />
-        <activity android:name=".CaptureAct"
+        <activity
+            android:name=".CaptureAct"
             android:screenOrientation="fullSensor"
             android:stateNotNeeded="true"
-            android:windowSoftInputMode="stateAlwaysHidden"/>
+            android:windowSoftInputMode="stateAlwaysHidden" />
     </application>
 
 </manifest>
