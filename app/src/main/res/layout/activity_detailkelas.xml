@@ -8,76 +8,83 @@
     android:background="#FFFFFF"
     tools:context=".detailkelas">
 
+    <TextView
+        android:id="@+id/detailmatkullengkap"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="662dp"
+        android:text="Rancangan Perangkat Lunak"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
     <View
         android:id="@+id/rectangle_kese"
         android:layout_width="415dp"
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
         android:layout_marginTop="0dp"
-        android:background="@drawable/rectangle_1"
-        />
+        android:background="@drawable/rectangle_1" />
 
     <TextView
-        android:id="@+id/rpl_01"
+        android:id="@+id/namamatkul"
         android:layout_width="150dp"
         android:layout_height="64dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="218dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="-15dp"
+        android:layout_marginLeft="218dp"
+        android:layout_marginTop="-10dp"
+        android:gravity="center_vertical"
         android:text="@string/rpl_01"
         android:textAppearance="@style/rpl_01"
-        android:gravity="center_vertical"
         />
 
-    <View
-        android:id="@+id/rectangle_detail_1"
-        android:layout_width="321dp"
-        android:layout_height="42dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="39dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="90dp"
-        android:background="@drawable/buat_detail_kls_1"
-        />
-
-    <!-- Week 1 -->
-    <TextView
-        android:id="@+id/week_1"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="54dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="90dp"
-        android:text="@string/week_1"
-        android:textAppearance="@style/week_1"
-        android:gravity="center_vertical"
-        />
-
-    <View
-        android:id="@+id/rectangle_4"
-        android:layout_width="321dp"
-        android:layout_height="185dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="36dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="160dp"
-        android:background="@drawable/buat_detail_kls_2"
-        />
 
     <TextView
-        android:id="@+id/tugas_mater"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="45dp"
+        android:id="@+id/Oleh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="699dp"
+        android:text="Pengajar:"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/namadosen"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="699dp"
+        android:text="Prof."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tugasRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="594dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="200dp"
-        android:text="@string/tugas_mater"
-        android:textAppearance="@style/tugas_mater"
-        android:gravity="center_vertical"
-        />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="20dp" />
 
 </RelativeLayout>

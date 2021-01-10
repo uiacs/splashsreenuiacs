@@ -15,8 +15,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp"
-        android:background="@drawable/rectangle_1"
-        />
+        android:background="@drawable/rectangle_1" />
 
     <TextView
         android:id="@+id/notes"
@@ -32,51 +31,31 @@
         />
 
 
-    <View
-        android:id="@+id/rectangle_untuk_kelas_1_1"
-        android:layout_width="156dp"
-        android:layout_height="164dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="35dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="90dp"
-        android:background="@drawable/rect_kelas_1"
-        />
 
-    <View
-        android:id="@+id/kisspng_plu"
+
+    <ImageButton
+        android:id="@+id/tambahnotes"
         android:layout_width="100dp"
-        android:layout_height="106dp"
+        android:layout_height="100dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="67dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="110dp"
-        android:background="@drawable/plus"
-        />
+        android:layout_marginLeft="291dp"
+        android:layout_marginTop="618dp"
+        android:background="@drawable/plus" />
 
-    <Button
-        android:id="@+id/rectangle_untuk_notes"
-        android:layout_width="156dp"
-        android:layout_height="164dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="215dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="90dp"
-        android:background="@drawable/rect_kelas_1"
-        />
-
-    <TextView
-        android:id="@+id/notes_1"
-        android:layout_width="91dp"
-        android:layout_height="33dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="245dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="135dp"
-        android:text="@string/notes_1"
-        android:textAppearance="@style/notes_1"
-        android:gravity="center_vertical"
-        />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="130dp" />
 
 
 </RelativeLayout>

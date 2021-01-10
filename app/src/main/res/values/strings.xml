@@ -152,4 +152,11 @@ No
     <string name="note_home">Note</string>
     <string name="profile_home">Profile</string>
     <string name="logout_home">Logout</string>
+    <string name="full_name">Full Name</string>
+    <string name="todo">TODO</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="date">Date</string>
+    <string name="alamat_email">alamat email</string>
+    <string name="npm">NPM</string>
 </resources>

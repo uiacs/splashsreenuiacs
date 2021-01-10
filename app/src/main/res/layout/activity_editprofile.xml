@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/act_profile"
+    android:id="@+id/edit_profile"
     android:background="#FFFFFF"
-    tools:context=".profile">
+    tools:context=".editprofile">
 
     <View
         android:id="@+id/header"
@@ -37,12 +37,11 @@
         android:layout_width="157dp"
         android:layout_height="155dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="125dp"
         android:layout_marginLeft="121dp"
-        android:layout_marginTop="83dp"
-        android:background="@drawable/profile_1" />
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/profile_1"
+        />
 
     <View
         android:id="@+id/fillnama"
@@ -105,79 +104,100 @@
         android:layout_marginEnd="50dp"
         android:background="@drawable/profile_2" />
 
-    <TextView
+    <EditText
         android:id="@+id/nama"
-        android:layout_width="298dp"
+        android:layout_width="294dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/fillnama"
         android:layout_alignTop="@+id/fillnama"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-3dp"
+        android:hint="Nama Lengkap"
+        android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="15sp" />
 
-    <TextView
+    <EditText
         android:id="@+id/fakultas"
-        android:layout_width="302dp"
+        android:layout_width="296dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/fillfakultas"
         android:layout_alignTop="@+id/fillfakultas"
         android:layout_centerInParent="true"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-5dp"
+        android:hint="Fakultas"
+        android:inputType="text"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="15sp" />
 
-    <TextView
+    <EditText
         android:id="@+id/jurusan"
-        android:layout_width="300dp"
+        android:layout_width="292dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/fillfakultas"
         android:layout_alignTop="@+id/fillfakultas"
         android:layout_centerInParent="true"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:hint="Jurusan / Prodi"
+        android:inputType="text"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="15sp" />
 
-    <TextView
+    <EditText
         android:id="@+id/npm"
-        android:layout_width="307dp"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/fillfakultas"
-        android:layout_alignTop="@+id/fillfakultas"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="-1dp"
-        android:layout_marginTop="155dp"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="15sp" />
-
-    <TextView
-        android:id="@+id/email"
-        android:layout_width="295dp"
+        android:layout_width="299dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/fillfakultas"
         android:layout_alignTop="@+id/fillfakultas"
         android:layout_centerInParent="true"
         android:layout_marginStart="6dp"
-        android:layout_marginTop="227dp"
+        android:layout_marginTop="138dp"
+        android:hint="Nomor NPM"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fillfakultas"
+        android:layout_alignTop="@+id/fillfakultas"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="211dp"
+        android:hint="Alamat email"
+        android:inputType="textEmailAddress"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="15sp" />
 
     <Button
-        android:id="@+id/updateprofile"
+        android:id="@+id/cancel"
         android:layout_width="124dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="52dp"
-        android:text="Edit Profile" />
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="50dp"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/saveprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toEndOf="@+id/cancel"
+        android:text="Save Changes" />
 
 
 </RelativeLayout>

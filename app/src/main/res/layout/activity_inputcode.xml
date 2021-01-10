@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_inputcode"
     android:background="#FFCD00"
     tools:context=".inputcode">
 
@@ -21,7 +21,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/code"
+        android:id="@+id/code1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/code"
@@ -34,7 +34,7 @@
         android:textSize="15sp" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/name1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/inputname"
@@ -51,7 +51,7 @@
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:layout_below="@id/name"
+        android:layout_below="@id/name1"
         android:background="#808080"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
